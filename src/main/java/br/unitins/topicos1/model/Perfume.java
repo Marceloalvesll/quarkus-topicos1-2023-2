@@ -1,12 +1,19 @@
 package br.unitins.topicos1.model;
 
-import io.quarkus.hibernate.orm.panache.PanacheEntity;
+
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 
 
 @Entity
-public class Perfume extends PanacheEntity {
+public class Perfume{
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String nome;
     private String fragrancia;
     private String pais;
@@ -29,7 +36,14 @@ public class Perfume extends PanacheEntity {
     public void setPais(String pais) {
         this.pais = pais;
     }
+    public Long getId() {
+        return id;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
 
+    
     
 
 }

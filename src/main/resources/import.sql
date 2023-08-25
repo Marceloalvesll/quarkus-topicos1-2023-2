@@ -8,9 +8,9 @@
 
 
 
-    insert into perfume (id, nome, fragrancia, pais) values(1, 'Versace Man','Eau Fraiche','Italia');
-    insert into perfume (id, nome, fragrancia, pais) values(2, 'Boucheron Quatre','Eau de Toilette','Franca');
-    insert into perfume (id, nome, fragrancia, pais) values(3, 'Chanel No. 5', 'Eau de Parfum', 'Franca');
-    insert into perfume (id, nome, fragrancia, pais) values(4, 'Dolce & Gabbana Light Blue', 'Eau de Toilette', 'Italia');
-    insert into perfume (id, nome, fragrancia, pais) values(5, 'Armani Code', 'Eau de Toilette', 'Italia');
-    insert into perfume (id, nome, fragrancia, pais) values(6, 'Calvin Klein Eternity', 'Eau de Parfum', 'Estados Unidos');
+    insert into perfume (nome, fragrancia, pais) values('Versace Man','Eau Fraiche','Italia');
+    insert into perfume (nome, fragrancia, pais) values('Boucheron Quatre','Eau de Toilette','Franca');
+    insert into perfume (nome, fragrancia, pais) values('Chanel No. 5', 'Eau de Parfum', 'Franca');
+    insert into perfume (nome, fragrancia, pais) values('Dolce & Gabbana Light Blue', 'Eau de Toilette', 'Italia');
+    insert into perfume (nome, fragrancia, pais) values('Armani Code', 'Eau de Toilette', 'Italia');
+    insert into perfume (nome, fragrancia, pais) values('Calvin Klein Eternity', 'Eau de Parfum', 'Estados Unidos');
