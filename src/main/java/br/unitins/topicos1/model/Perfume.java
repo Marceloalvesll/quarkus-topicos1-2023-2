@@ -24,12 +24,7 @@ public class Perfume{
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public String getFragancia() {
-        return fragrancia;
-    }
-    public void setFragancia(String fragancia) {
-        this.fragrancia = fragancia;
-    }
+    
     public String getPais() {
         return pais;
     }
@@ -41,6 +36,12 @@ public class Perfume{
     }
     public void setId(Long id) {
         this.id = id;
+    }
+    public String getFragrancia() {
+        return fragrancia;
+    }
+    public void setFragrancia(String fragrancia) {
+        this.fragrancia = fragrancia;
     }
 
     
